@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	fmt.Println("สวัสดีจ้า")
+	fmt.Println("641463019 ธนภัทร อภิวงค์")
 
 	fmt.Print("Connecting to server...\n")
 
