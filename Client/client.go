@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Simple Chat Client")
+	fmt.Println("สวัสดีจ้า")
 
 	fmt.Print("Connecting to server...\n")
 

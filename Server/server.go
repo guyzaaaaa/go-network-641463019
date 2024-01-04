@@ -34,7 +34,7 @@ func handleConnection(conn net.Conn) {
 func main() {
 	fmt.Println("Server is starting...")
 
-	// เปิด port 12345 เพื่อรองรับการเชื่อมต่อ
+	// เปิด port 87 
 	ln, err := net.Listen("tcp", ":87")
 	if err != nil {
 		fmt.Println("Error listening:", err)
@@ -50,7 +50,7 @@ func main() {
 			continue
 		}
 
-		// เริ่มต้นการจัดการเชื่อมต่อ
+		// เชื่อมต่อ
 		go handleConnection(conn)
 	}
 }
